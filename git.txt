@@ -1,0 +1,4 @@
+1. git init = install git on local dir
+2. git status = check currrent conditon
+3. git add . = add all change to git
+4.  git commit -m " Your text = to add commit 
