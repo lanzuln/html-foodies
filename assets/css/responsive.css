@@ -4,6 +4,20 @@
 /*Large screen*/
 @media only screen and (min-width:1500px) {}
 
+@media only screen and (max-width:1199px) {
+	.banner_area {
+		padding-bottom: 40px;
+	}
+
+	section.company_logo {
+		padding: 70px 0px;
+	}
+
+	section.services_area {
+		margin: 0px 0px 100px;
+	}
+}
+
 @media only screen and (max-width:1023px) {
 
 	.off_canvas_menu {
@@ -60,16 +74,145 @@
 		color: #fff;
 		border-color: #06C167;
 	}
+
+
 }
 
+@media only screen and (min-width:1025px) and (max-width:1199px) {}
+
 /* Tablet Layout width */
-@media only screen and (min-width:992px) and (max-width:1024px) {}
+@media only screen and (min-width:992px) and (max-width:1024px) {
+	.description_section {
+		padding-top: 0;
+	}
+
+	.banner_left h2 {
+		font-size: 62px;
+		line-height: 72px;
+	}
+
+	h2 {
+		font-size: 55px;
+		line-height: 65px;
+	}
+
+	.section_title h2 {
+		padding-bottom: 60px;
+	}
+}
 
 /* tablet */
-@media only screen and (min-width:768px) and (max-width:991px) {}
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.banner_left h2 {
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	.banner_right {
+		margin-bottom: 0px;
+		padding-bottom: 50px;
+	}
+
+	section.company_logo {
+		padding: 70px 0px;
+	}
+
+	.single_services {
+		padding-bottom: 40px;
+	}
+
+	.border_line {
+		padding: 60px 0px 20px;
+	}
+
+	.banner_right {
+		margin-bottom: -140px;
+	}
+
+	section.company_logo {
+		padding: 100px 0px 70px;
+	}
+
+	img.banner_dot {
+		bottom: 50px;
+		right: 115px;
+	}
+
+	.section_title h2 {
+		padding-bottom: 70px;
+	}
+
+	img.section_dot {
+		bottom: 28px;
+		left: -15px;
+	}
+
+	.benefit_left {
+		margin-right: 0px;
+	}
+
+	.promo_right {
+		margin-left: 0px;
+	}
+
+	.benefit_left,
+	.promo_right {
+		text-align: center;
+	}
+
+	section.feature_area .description_section {
+		padding-top: 0px;
+	}
+
+	section.popular_area .description_section {
+		padding-top: 0px;
+	}
+
+	.footer_main {
+		padding: 0px;
+	}
+
+	.widget_4 {
+		padding-top: 30px;
+	}
+
+	.single_popular_item {
+		margin-bottom: 30px;
+	}
+
+}
 
 /* Mobile Layout */
 @media only screen and (max-width:767px) {}
+
+/* common Mobile Layout */
+@media only screen and (max-width:575px) {
+	.banner_left h2 {
+		font-size: 50px;
+		line-height: 70px;
+	}
+
+	.banner_left p {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.site_btn a {
+		display: block;
+	}
+
+	.banner_right {
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	.banner_rating_box {
+		bottom: 0;
+		left: 50%;
+		margin-left: -116px;
+	}
+}
+
 
 /* small scren*/
 @media only screen and (max-width:339px) {}

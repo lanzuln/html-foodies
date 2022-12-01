@@ -68,7 +68,6 @@ h2 {
     font-size: 60px;
     line-height: 72px;
     font-weight: 500;
-    padding-bottom: 70px;
 }
 
 h3 {
@@ -270,11 +269,9 @@ p.rating_text {
     padding: 20px;
     border-radius: 50px;
     position: absolute;
-    top: 275px;
+    bottom: 275px;
     left: -22px;
 }
-
-
 
 .banner_comment_box {
     display: flex;
@@ -282,7 +279,7 @@ p.rating_text {
     padding: 5px;
     border-radius: 50px;
     position: absolute;
-    top: 213px;
+    bottom: 370px;
     right: -29px;
     background: #fff;
 }
@@ -563,6 +560,10 @@ section.cta_area h2 {
 
 .w_common p {
     margin-bottom: 30px;
+}
+
+section.cta_area h2 {
+    padding-bottom: 70px;
 }
 
 ul.f_social li {
