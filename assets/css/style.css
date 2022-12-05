@@ -271,9 +271,8 @@ p.rating_text {
     position: absolute;
     bottom: 275px;
     left: -22px;
+    z-index: 2;
 }
-
-
 
 .banner_comment_box {
     display: flex;
@@ -281,9 +280,10 @@ p.rating_text {
     padding: 8px;
     border-radius: 50px;
     position: absolute;
-    top: 213px;
+    bottom: 362px;
     right: -42px;
     background: #fff;
+    z-index: 2;
 }
 
 .box_shadow {
@@ -311,31 +311,37 @@ section.company_logo {
     padding: 37px 0px;
 }
 
+.single_company {
+    padding-bottom: 30px;
+}
+
 /* services area ====================== */
 section.services_area {
     margin: 150px 0px;
 }
 
 .border_line {
-    padding: 60px 0px;
+    padding: 60px 0px 20px;
     border-bottom: 2px solid #EAEAEA;
     border-top: 2px solid #EAEAEA;
 }
 
 .servics_logo i {
-    font-size: 32px;
+    font-size: 30px;
     color: #06C167;
-    padding: 20px;
     background: #F3FCF7;
     border-radius: 10px;
     margin-right: 25px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 64px;
 }
-
-
 
 .single_services {
     display: flex;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .servics_detail h3 {
@@ -397,6 +403,9 @@ img.section_dot {
     padding-bottom: 15px;
 }
 
+.single_counter {
+    margin-bottom: 30px;
+}
 
 /* feature area ===================== */
 
@@ -477,6 +486,10 @@ img.section_dot {
     bottom: 0;
 }
 
+.feature-item {
+    margin-bottom: -30px;
+}
+
 .site_btn.feature_btn a {
     background: #F3FCF7;
     color: #06C167;
@@ -490,6 +503,11 @@ img.section_dot {
     padding: 30px;
     border: 2px solid #EAEAEA;
     transition: .3s;
+    margin-bottom: 30px;
+}
+
+.popular_area {
+    margin-bottom: -30px;
 }
 
 .single_popular_item:hover {

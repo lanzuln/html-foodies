@@ -1,6 +1,21 @@
 /*******************************
 	All Responsive Code
 *******************************/
+
+
+/* 
+
+Breakpoint	    Class infix			Dimensions
+X-Small	        None				<576px
+Small			sm					≥576px
+Medium			md					≥768px
+Large			lg					≥992px
+Extra 			large	xl			≥1200px
+Extra 			extra large	xxl		≥1400px 
+
+*/
+
+
 /*Large screen*/
 @media only screen and (min-width:1500px) {}
 
@@ -10,7 +25,7 @@
 	}
 
 	section.company_logo {
-		padding: 70px 0px;
+		padding: 70px 0px 40px;
 	}
 
 	section.services_area {
@@ -117,13 +132,6 @@
 		padding: 70px 0px;
 	}
 
-	.single_services {
-		padding-bottom: 40px;
-	}
-
-	.border_line {
-		padding: 60px 0px 20px;
-	}
 
 	.banner_right {
 		margin-bottom: -140px;
@@ -182,10 +190,18 @@
 
 }
 
-/* Mobile Layout */
-@media only screen and (max-width:767px) {}
+/* Mobile Layout col-md */
+@media only screen and (max-width:767px) {
+	section.company_logo {
+		margin-top: 70px;
+	}
 
-/* common Mobile Layout */
+	.section_title h2 {
+		padding-bottom: 70px;
+	}
+}
+
+/* common Mobile Layout for col =<575px */
 @media only screen and (max-width:575px) {
 	.banner_left h2 {
 		font-size: 50px;
@@ -199,6 +215,7 @@
 
 	.site_btn a {
 		display: block;
+		text-align: center;
 	}
 
 	.banner_right {
@@ -211,6 +228,113 @@
 		left: 50%;
 		margin-left: -116px;
 	}
+
+	.banner_comment_box {
+		bottom: 80px;
+		right: 50%;
+		margin-right: -115px;
+	}
+
+	section.services_area {
+		margin: 0px 0px 60px;
+	}
+
+	.banner_left h2 {
+		font-size: 50px;
+		line-height: 60px;
+		padding-bottom: 30px;
+	}
+
+	.benefit_left {
+		margin-right: 0px;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	img.section_dot {
+		bottom: 29px;
+		left: -10px;
+		width: 103px;
+		height: auto;
+	}
+
+	.section_title h2 {
+		padding-bottom: 50px;
+	}
+
+	.p_b_100 {
+		padding-bottom: 70px;
+	}
+
+	.promo_right {
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	.f_description h4 {
+		font-size: 30px;
+	}
+
+	.popular_area .description_section {
+		padding-top: 0px;
+	}
+
+	.f_description h4 {
+		font-size: 20px;
+		line-height: 1.2;
+	}
+
+	.site_btn.feature_btn a {
+		background: #F3FCF7;
+		color: #06C167;
+		padding: 10px;
+		font-size: 13px;
+	}
+
+	.single_feature {
+		height: 238px;
+	}
+
+	span.btn_icon {
+		display: none;
+	}
+
+	.rating_star i {
+		font-size: 12px;
+	}
+
+	.single_popular_item h5 {
+		font-size: 19px;
+		padding-bottom: 10px;
+	}
+
+	.site_btn.popular_btn a {
+		padding: 7px;
+		border: 1px solid #06C167;
+		font-size: 14px;
+	}
+
+	.cta_area {
+		padding: 100px 0px;
+	}
+
+	.site_btn a {
+		padding: 17px;
+	}
+
+	.footer_main {
+		padding: 0px 0px;
+		margin-bottom: -30px;
+	}
+
+	.w_common {
+		padding-bottom: 30px;
+	}
+
 }
 
 
